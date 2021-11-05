@@ -17,3 +17,12 @@ For NBA, we could get the data using (nba-api)[https://pypi.org/project/nba-api/
 Baseball (if we wanted):
 
 - Clustering pitches
+
+Wheel of Fortune
+
+ - Predicting Probability of Winning Bonus Round based off of letters chosen
+
+Jeopardy
+
+ - Predicting Location of Daily Doubles
+
