@@ -29,7 +29,9 @@ Often time sports writers and reporters emphasize the importance of putting a li
 - 7.  *Outline a plan of how everyone in the group is going to participate in this project.*
 
 David - Host of Git Hub
+
 Matt - Assistant Host
+
 McKay - Cheerleader
 
 We expect that all will have a hand in creating EDA graphics and trying different models
