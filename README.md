@@ -31,6 +31,8 @@ Initially, five different types of models were fit to each of the four datasets:
 - Gradient Boosted Machine
 - Extreme Gradient Boosted Machine
 
+Below are the out-of-sample accuracies for each of the models:
+
 | Data | Logistic | KNN | Random Forest | GBM | XGB |
 | ----------- | ----------- |----------- |----------- |----------- |----------- |
 | Away Difference | 0.617 | 0.605 | 0.614 | 0.597 | 0.601 |
@@ -40,7 +42,7 @@ Initially, five different types of models were fit to each of the four datasets:
 
 Additionally, we looked at the four ROC curves for each of the models:
 
-
+![Logistic ROC](https://github.com/dteuscher1/Project426/blob/main/PNGs/Logistic%20ROC.png)
 
 ## Conclusion
 
