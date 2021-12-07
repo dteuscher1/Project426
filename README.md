@@ -22,8 +22,6 @@ In terms of formatting the data, the ratio and difference were calculated for ea
 
 ## Exploratory Data Analysis (EDA)
 
-![WINNER Hist](https://github.com/dteuscher1/Project426/blob/main/PNGs/WINNER%20Hist.png)
-
 ![SCRREN_AST_RATIO Hist](https://github.com/dteuscher1/Project426/blob/main/PNGs/SCREEN_AST_RATIO%20Hist.png)
 
 ![DEFLECTION_RATIO Hist](https://github.com/dteuscher1/Project426/blob/main/PNGs/DEFLECTION_RATIO%20Hist.png)
