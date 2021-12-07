@@ -22,6 +22,18 @@ In terms of formatting the data, the ratio and difference were calculated for ea
 
 ## Exploratory Data Analysis (EDA)
 
+![WINNER Hist](https://github.com/dteuscher1/Project426/blob/main/PNGs/WINNER%20Hist.png)
+
+![SCRREN_AST_RATIO Hist](https://github.com/dteuscher1/Project426/blob/main/PNGs/SCREEN_AST_RATIO%20Hist.png)
+
+![DEFLECTION_RATIO Hist](https://github.com/dteuscher1/Project426/blob/main/PNGs/DEFLECTION_RATIO%20Hist.png)
+
+![DEFLECTIONS_DIFF Hist](https://github.com/dteuscher1/Project426/blob/main/PNGs/DEFLECTIONS_DIFF%20Hist.png)
+
+![DEF_BOXOUT_DIFF Hist](https://github.com/dteuscher1/Project426/blob/main/PNGs/DEF_BOXOUT_DIFF%20Hist.png)
+
+![OFF_BOXOUT_DIFF Hist](https://github.com/dteuscher1/Project426/blob/main/PNGs/OFF_BOXOUT_DIFF%20Hist.png)
+
 ## Methods
 
 Initially, five different types of models were fit to each of the four datasets:
