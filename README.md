@@ -31,6 +31,13 @@ Initially, five different types of models were fit to each of the four datasets:
 - Gradient Boosted Machine
 - Extreme Gradient Boosted Machine
 
+| Data | Logistic | KNN | Random Forest | GBM | XGB |
+| ----------- | ----------- |----------- |----------- |----------- |----------- |
+| Away Difference | 0.617 | 0.605 | 0.614 | 0.597 | 0.601 |
+| Home Difference | 0.628 | 0.599 | 0.607 | 0.596 | 0.609 |
+| Away Ratio | 0.616 | 0.602 | 0.597 | 0.591 | 0.614 |
+| Home Ratio | 0.626 | 0.579 | 0.590 | 0.578 | 0.603 
+
 Additionally, we looked at the four ROC curves for each of the models:
 
 
