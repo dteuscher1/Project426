@@ -22,7 +22,7 @@ In terms of formatting the data, the ratio and difference were calculated for ea
 
 ## Exploratory Data Analysis (EDA)
 
-## Methods and Results
+## Methods
 
 Initially, five different types of models were fit to each of the four datasets:
 - Logistic Regression
@@ -35,10 +35,10 @@ Below are the out-of-sample accuracies for each of the models:
 
 | Data | Logistic | KNN | Random Forest | GBM | XGBoost |
 | ----------- | ----------- |----------- |----------- |----------- |----------- |
-| Away Difference | 0.617 | 0.605 | 0.614 | 0.597 | 0.601 |
-| Home Difference | 0.628 | 0.599 | 0.607 | 0.596 | 0.609 |
-| Away Ratio | 0.616 | 0.602 | 0.597 | 0.591 | 0.614 |
-| Home Ratio | 0.626 | 0.579 | 0.590 | 0.578 | 0.603 
+| `away_difference` | 0.617 | 0.605 | 0.614 | 0.597 | 0.601 |
+| `home_difference` | 0.628 | 0.599 | 0.607 | 0.596 | 0.609 |
+| `away_ratio` | 0.616 | 0.602 | 0.597 | 0.591 | 0.614 |
+| `home_ratio` | 0.626 | 0.579 | 0.590 | 0.578 | 0.603 
 
 Additionally, we looked at the four ROC curves for each of the models:
 
@@ -61,6 +61,10 @@ Additionally, we looked at the four ROC curves for each of the models:
 ### XGBoost
 
 ![XGBoost ROC](https://github.com/dteuscher1/Project426/blob/main/PNGs/XGBoost%20ROC.png)
+
+## Results
+
+Overall, the best model for this analysis was a Logsitic Regression model with the `home_difference`data set. 
 
 ## Conclusion
 
