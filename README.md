@@ -14,11 +14,26 @@ The data used for the project was collected using the [`nba-api`](https://pypi.o
 - Loose balls recovered 
 - Boxouts (Offensive and Defensive)
 
-In terms of formatting the data, the ratio and difference were calculated for each of the designated hustle stats. 
+In terms of formatting the data, the ratio and difference were calculated for each of the designated hustle stats. Additionally, the ratios and differences of hustle stats were further subset into home and away. This gave us four datasets to model with: 
+- `home_difference`
+- `home_ratio`
+- `away_Difference`
+- `away_ratio`
 
 ## Exploratory Data Analysis (EDA)
 
-## Method and Results
+## Methods and Results
+
+Initially, five different types of models were fit to each of the four datasets:
+- Logistic Regression
+- K Nearest Neighbors
+- Random Forest
+- Gradient Boosted Machine
+- Extreme Gradient Boosted Machine
+
+Additionally, we looked at the four ROC curves for each of the models:
+
+
 
 ## Conclusion
 
