@@ -33,7 +33,7 @@ Initially, five different types of models were fit to each of the four datasets:
 
 Below are the out-of-sample accuracies for each of the models:
 
-| Data | Logistic | KNN | Random Forest | GBM | XGB |
+| Data | Logistic | KNN | Random Forest | GBM | XGBoost |
 | ----------- | ----------- |----------- |----------- |----------- |----------- |
 | Away Difference | 0.617 | 0.605 | 0.614 | 0.597 | 0.601 |
 | Home Difference | 0.628 | 0.599 | 0.607 | 0.596 | 0.609 |
@@ -42,7 +42,25 @@ Below are the out-of-sample accuracies for each of the models:
 
 Additionally, we looked at the four ROC curves for each of the models:
 
+### Logistic
+
 ![Logistic ROC](https://github.com/dteuscher1/Project426/blob/main/PNGs/Logistic%20ROC.png)
+
+### KNN
+
+![KNN ROC](https://github.com/dteuscher1/Project426/blob/main/PNGs/KNN%20ROC.png)
+
+### Random Forest
+
+![Random Forest ROC](https://github.com/dteuscher1/Project426/blob/main/PNGs/Random%20Forest%20ROC.png)
+
+### GBM
+
+![GBM ROC](https://github.com/dteuscher1/Project426/blob/main/PNGs/GBM%20ROC.png)
+
+### XGBoost
+
+![XGBoost ROC](https://github.com/dteuscher1/Project426/blob/main/PNGs/XGBoost%20ROC.png)
 
 ## Conclusion
 
