@@ -22,15 +22,21 @@ For contested shots, the rate of contested shots for each team was calculated. F
 
 ## Exploratory Data Analysis (EDA)
 
-<img src="https://github.com/dteuscher1/Project426/blob/main/PNGs/SCREEN_AST_RATIO%20Hist.png" width="450" height="400">
+The plots below show the distribution of some of the explanatory variables. Since we had the statistics for both teams, any of the histograms for the differences in statistics should be symmetric, while the ratio should range from 0 to 1, with the values likely being centered around .5. 
 
-![DEFLECTION_RATIO Hist](https://github.com/dteuscher1/Project426/blob/main/PNGs/DEFLECTION_RATIO%20Hist.png)
 
-![DEFLECTIONS_DIFF Hist](https://github.com/dteuscher1/Project426/blob/main/PNGs/DEFLECTIONS_DIFF%20Hist.png)
+<img src="https://github.com/dteuscher1/Project426/blob/main/PNGs/SCREEN_AST_RATIO%20Hist.png" width="600" height="400">
 
-![DEF_BOXOUT_DIFF Hist](https://github.com/dteuscher1/Project426/blob/main/PNGs/DEF_BOXOUT_DIFF%20Hist.png)
+<img src="https://github.com/dteuscher1/Project426/blob/main/PNGs/DEFLECTION_RATIO%20Hist.png" width="600" height="400">
 
-![OFF_BOXOUT_DIFF Hist](https://github.com/dteuscher1/Project426/blob/main/PNGs/OFF_BOXOUT_DIFF%20Hist.png)
+<img src="https://github.com/dteuscher1/Project426/blob/main/PNGs/DEFLECTIONS_DIFF%20Hist.png" width="600" height="400">
+
+<img src="https://github.com/dteuscher1/Project426/blob/main/PNGs/DEF_BOXOUT_DIFF%20Hist.png" width="600" height="400">
+
+<img src="https://github.com/dteuscher1/Project426/blob/main/PNGs/OFF_BOXOUT_DIFF%20Hist.png" width="600" height="400">
+
+
+
 
 ## Methods
 
