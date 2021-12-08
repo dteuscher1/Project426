@@ -14,7 +14,7 @@ The data used for the project was collected using the [`nba-api`](https://pypi.o
 - Loose balls recovered 
 - Boxouts (Offensive and Defensive)
 
-In terms of formatting the data, the ratio and difference were calculated for each of the designated hustle stats. Additionally, the ratios and differences of hustle stats were further subset into home and away. We did this so that there would not be repeat information in each row. We wanted our models to look at just the home team or just the away team's hustle stats. This gave us four datasets to model with: 
+For contested shots, the rate of contested shots for each team was calculated. For the other stats, the ratio and difference were calculated. The difference was the stats for the home team minus the stats for the away team. The ratio was calculated by the total for a team divided by the total between the two teams for the game. Additionally, the ratios and differences of hustle stats were further subset into home and away. We did this so that there would not be repeat information in each row. We wanted our models to look at just the home team or just the away team's hustle stats. This gave us four datasets to model with: 
 - `home_difference`
 - `home_ratio`
 - `away_Difference`
@@ -22,7 +22,7 @@ In terms of formatting the data, the ratio and difference were calculated for ea
 
 ## Exploratory Data Analysis (EDA)
 
-![SCRREN_AST_RATIO Hist](https://github.com/dteuscher1/Project426/blob/main/PNGs/SCREEN_AST_RATIO%20Hist.png)
+<img src="https://github.com/dteuscher1/Project426/blob/main/PNGs/SCREEN_AST_RATIO%20Hist.png" width="450" height="400">
 
 ![DEFLECTION_RATIO Hist](https://github.com/dteuscher1/Project426/blob/main/PNGs/DEFLECTION_RATIO%20Hist.png)
 
@@ -74,12 +74,12 @@ Additionally, we looked at the four ROC curves for each of the models:
 
 ## Results
 
-Looking at the out-of-sample accuracy metrics and ROC curves foe each model, we determined that the best model for this analysis was a Logsitic Regression model with the `home_difference`data set. Although, it is interesting to note that the team that was favored to win won apporximately 67% of the time and that our Logistic Regression model had an accuracy below this. Additionally, during the process of model fitting, we noticed that all the machine learning-based algorithms overfit to the training data sets and had in-sample accuracies arond 70-80% while the out-of-sample accuracies were around 60%. Also, we founc that overall, the difference in hustle stats was slightly more informative that the ratio in hustle stats.
+Looking at the out-of-sample accuracy metrics and ROC curves for each model, we determined that the best model for this analysis was a Logsitic Regression model with the `home_difference` data set. Although, it is interesting to note that the team that was favored to win won apporximately 67% of the time and that our Logistic Regression model had an accuracy below this. Additionally, during the process of model fitting, we noticed that all the machine learning-based algorithms overfit to the training data sets and had in-sample accuracies arond 70-80% while the out-of-sample accuracies were around 60%. Also, we found that overall, the difference in hustle stats was slightly more informative that the ratio in hustle stats.
 
 ## Conclusion
 
 Overall, it seems that hustle plays on their own do not have a significant impact on winning or losing an NBA game as simply choosing the favored team results in a better accuracy than merely looking at hustle stats. Although, we believe there are other analysis that could be performed to further study this hypothesis:
-- We could look at NBA games where there is not a clear favorite to win and see if hustle stats do better a predicting "close" games
+- We could look at NBA games where there is not a clear favorite to win and see if hustle stats do better a predicting "close" games, where teams of equal or similar ability are playing against each other.
 - We could look at win probability or expected points added as the response variable instead of simply a binary win/loss variable
 - Hustle stats could be combined with regular box score data to see if any of the hustle stats come back as significant towards determining a win or a loss.
 - Include additional data and see if the addition of hustle plays improves model accuracy
